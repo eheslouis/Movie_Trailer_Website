@@ -1,6 +1,9 @@
 import webbrowser
 
 class Movie():
+    """ Movie class contains all info about a movie:
+        title, storyline, poster url, trailer url
+    """
     def __init__(self, movie_title, storyline, poster, trailer_youtube):
         self.title = movie_title
         self.storyline = storyline
